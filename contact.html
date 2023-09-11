@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="jpg" href="img/logo.jpg">
+    <title>Contact page</title>
+    <style>
+        #phone p{
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #phone h1 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        #address p{
+            font-size: 21px;
+            font-weight: bold;
+        }
+
+        #address h1 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        #form .card {
+            margin-left: 200px;
+            width: 450px;
+            height: 580px;
+            box-shadow: 2px 3px 6px gray;
+        }
+
+        #form form {
+            padding: 20px 30px;
+            font-weight: bold;
+            height: 580px;
+            width: 430px;
+        }
+
+        #form h1 {
+            font-weight: bold;
+        }
+
+        #form h2 {
+            font-weight: bold;
+        }
+
+        #form li {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #about h5 {
+            color: rgb(204, 39, 39);
+        }
+
+        #about {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #about .card {
+            width: 850px;
+            background-color: rgb(245, 248, 255);
+        }
+
+        .footer {
+            border-radius: 250px 0 0 0;
+            background-color: rgb(26, 25, 25);
+            color: white;
+            cursor: pointer;
+        }
+
+        .footer p:hover {
+            color: darkcyan;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="contact">
+        <img src="img/contact.jpg" width="100%" height="800px">
+
+        <div class="container-fluid bg-dark text-light" id="phone">
+            <div class="container">
+                <div class="row py-5" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="col-lg-3">
+                        <h1 class="text-center py-3">PHONE</h1>
+                    </div>
+                    <div class="col-lg-3">
+                        <p>24/7 HelpLine<br>098765432123456</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <p>Emergency<br>1234567890</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <p>Ambulance<br>108</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-success text-light" id="address">
+            <div class="container">
+                <div class="row py-5" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="col-lg-6">
+                        <h1 class="text-center">ADDRESS</h1>
+                        <p class="text-center">Hospital and Research centre <br>Arapalayam,Madurai<br>Tamilnadu</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="text-center">EMAIL</h1>
+                        <p class="text-center">dean.mjskjsfjbjhsdcjhbs.in<br>Loremipsumdol@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--form section-->
+
+        <div class="container-fluid" id="form">
+            <div class="container">
+                <h2 class="text-center py-5" data-aos="fade-up" data-aos-duration="1500" style=" color: rgb(204, 39, 39);">Contact Us</h2>
+                <div class="row" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="col-lg-6">
+                        <h1 class="py-3" style=" color: rgb(204, 39, 39);">Free Shuttle</h1>
+                        <h2 class="py-2">Free transport facility for patients.</h2>
+                        <ul>
+                            <li>Our Hospital provides free transport for patients pickup and drop.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo error dolore
+                                commodi, at voluptatum eaque..</li>
+                            <li>Free bus service available to the remote villages from Monday to Saturday for
+                                the benefits for poor patient</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo error dolore
+                                commodi, at voluptatum eaque..</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="Username" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="Username" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone No</label>
+                                    <input type="tel" class="form-control" id="phone" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Set a Date</label>
+                                    <input type="date" class="form-control" id="exampleInputEmail1" required>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                        id="floatingTextarea2" style="height: 100px"></textarea>
+                                    <label for="floatingTextarea2">Message</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--end of form section-->
+
+        <!--about section-->
+
+        <div id="about" class="container text-center py-5" data-aos="fade-up" data-aos-duration="1500">
+            <div class="card py-3">
+                <h4 class="py-3">Manage Your Health With Us</h4>
+                <h5>Video Consultation</h5>
+                <p>Book an online consultation with our doctors or call our Helpdesk to book your slot now</p>
+                <h5>Symptom Analysis</h5>
+                <p>Symptom analysis helps to find the right department or treatment for you based on your symptoms</p>
+            </div>
+        </div>
+    </div>
+    <!--end of about section-->
+
+    <!--Footer section-->
+
+    <div class="footer mt-5">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row py-5" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="py-3">Hospital</h4>
+                        <p>Research Centre</p>
+                        <p>Arapalayam,Madurai.</p>
+                        <p>Tamilnadu</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="py-3">Useful Links</h4>
+                        <p>HIS</p>
+                        <p> IEC Forms</p>
+                        <p> Careers</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="py-3">Hospital Services</h4>
+                        <p>Emergency Services/Casualty</p>
+                        <p>Master Health Checkup</p>
+                        <p>Diagnostic Services</p>
+                        <p>Blood Bank</p>
+                        <p>Facilities and Services</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="py-3">Get in Touch</h4>
+                        <p>Phone: 044-6700-0000</p>
+                        <p>dean.mjskjsfjbjhsdcjhbs.in</p>
+                        <p>Mon. to Sat: 8.00 AM to 10.00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End of Footer section-->
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+</body>
+
+</html>

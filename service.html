@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+
+    <!--link-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="jpg" href="img/logo.jpg">
+    
+    <!--end of link-->
+
+    <title>Service page</title>
+    <style>
+        :root {
+            --text-color: darkcyan;
+        }
+
+        #head {
+            height: 50px;
+            background-color: darkcyan;
+        }
+
+        #head .nav-link {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #head #active {
+            background-color: white;
+            color: rgb(1, 65, 65);
+        }
+
+        .header {
+            height: 75px;
+            background-color: white;
+            box-shadow: 0 4px 4px gray;
+        }
+
+        .header .nav-link {
+            font-size: 20px;
+            margin-right: 50px;
+            font-weight: bold;
+        }
+
+        .header .navbar-brand {
+            font-size: 22px;
+            margin-left: 20px !important;
+            font-weight: bolder;
+        }
+
+        .header .nav-link:hover {
+            color: black !important;
+            border-bottom: 2px solid black;
+        }
+
+        .container img {
+            padding-top: 10%;
+        }
+
+        #service h2 {
+            color: var(--text-color);
+            font-weight: bold;
+            border-bottom: 2px solid var(--text-color);
+        }
+
+        #service p {
+            color: var(--text-color);
+            font-weight: bold;
+            padding: 5px 20px;
+            border-radius: 7px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        #service p:hover {
+            color: white;
+            background-color: var(--text-color);
+        }
+
+        #img h4 {
+            color: white;
+            position: absolute;
+            padding-left: 33px;
+            font-size: 27px;
+            margin-top: 5%;
+        }
+
+        #img h6 {
+            color: white;
+            position: absolute;
+            margin-top: 10%;
+            font-size: 20px;
+            padding-left: 48px;
+        }
+
+        #blood h1 {
+            font-weight: bold;
+        }
+
+        #blood li {
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+
+        #eq h2 {
+            font-weight: bold;
+        }
+
+        #eq li {
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 2;
+        }
+
+        .footer {
+            border-radius: 250px 0 0 0;
+            background-color: rgb(26, 25, 25);
+            color: white;
+            cursor: pointer;
+        }
+
+        .footer p:hover {
+            color: darkcyan;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Head -->
+
+    <ul class="nav d-flex justify-content-around" id="head">
+        <li class="nav-item">
+            <div> <a class="nav-link" href="#"> 044-6700-0000</a>
+        </li>
+        <li><a class="nav-link" href="#">dean.mjskjsfjbjhsdcjhbs.in</a></li>
+        </li><a class="nav-link py-2" id="active" href="#">Get An Appoinment</a></li>
+    </ul>
+
+    <!-- /head-->
+
+    <!--Header section-->
+
+    <div class="header sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Hospital</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav  ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html" target="_blank">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" target="_blank">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="contact.html" target="_blank">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- End of Header section-->
+
+    <!--expert sectio-->
+
+    <div class="container-fluid" id="service">
+        <h1 class="text-center fs-1 fw-bold py-5" style=" color: rgb(204, 39, 39);" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-easing="ease-in-out">
+            Services</h1>
+        <div class="row">
+            <div class="col-lg-6" id="img" data-aos="fade-left" data-aos-duration="1000">
+                <h4>Looking for an Expert<h4>
+                        <h6> Our Healthcare is home to some of the<br> eminent doctors in the world.</h6>
+                        <img src="img/svg.svg" alt="">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="py-2" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    Specialities & Procedures</h2>
+                <div class="row my-3 pt-3" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="col-6 h3 fw-bold">Specialities</div>
+                    <div class="col-6 h3 fw-bold"> Procedures</div>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="col-6">
+                        <p>Cancer Care / Oncology</p>
+                        <p>Robotic Surgery</p>
+                        <p>Cardiac Sciences</p>
+                        <p>Liver Transplant and Biliary Sciences</p>
+                        <p>Orthopaedics & Joint Replacement</p>
+                        <p>Neurosciences</p>
+                        <p>Gastroenterology, Hepatology & Endoscopy</p>
+                    </div>
+                    <div class="col-6">
+                        <p>Aortic Valve Surgery</p>
+                        <p>Knee Replacement Surgery</p>
+                        <p>Da Vinci Robotic Surgery</p>
+                        <p>Bone Marrow Transplant (BMT)</p>
+                        <p>Lung Transplant</p>
+                        <p>Thoracic Surgery</p>
+                        <p>LVAD Surgery</p>
+                        <p>Bariatric Surgery</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--/expert sectio-->
+
+
+    <!--department section-->
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" id="blood" data-aos="fade-right" data-aos-duration="1500">
+                    <h1 class="py-3" style=" color: rgb(204, 39, 39);">Blood Bank</h1>
+                    <ul>
+                        <li>Our Department of Transfusion Medicine & Blood Bank provides 24x7 facility with blood
+                            component
+                            therapy, Apheresis, and Immunohematology laboratory diagnostics.</li>
+                        <li>We provide high-quality patient care and take part in clinical research programs which helps
+                            us
+                            increase our knowledge and improves our practice of transfusion medicine.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left" data-aos-duration="1500">
+                    <img src="img/blood.jpg" height="300px" width="500px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--department section-->
+
+    <!--generatin section-->
+
+    <div class="container-fluid bg-success text-light py-5 mt-4">
+        <div class="container">
+            <h3 data-aos="fade-right" data-aos-duration="1000">Next Generation Robotic Surgeries</h3>
+            <h4 class="py-3" data-aos="fade-right" data-aos-duration="1000">Info</h4>
+            <h5 data-aos="fade-right" data-aos-duration="1000">Max Institute of Laparoscopic, Endoscopic and Bariatric
+                Surgery at Max Hospital, Saket, Delhi has taken a
+                giant leap in
+                Robotic surgery with the Next-Generation <br>Robot- VERSIUS from Cambridge Medical Robotics. Versius
+                robot
+                offers more
+                flexibility, precision, and control for various surgeries such as Gallbladder Stones, Hernia,<br>
+                Appendicitis,
+                Weight Loss
+                (Bariatric) Surgery, Fundoplication and others.</h5>
+        </div>
+    </div>
+
+     <!--generatin section-->
+
+     <!--equipment section-->
+
+    <div class="container me-5 py-5" id="eq">
+        <h2 class="py-3" style=" color: rgb(204, 39, 39);" data-aos="fade-down" data-aos-duration="1000">Equipment:</h2>
+        <ul data-aos="fade-up" data-aos-duration="1500">
+            <li>Automated Blood grouping and Crossmatching, Antibody Screening and Antiglobulin tests</li>
+            <li>Refrigerated centrifuges to separate blood components from whole blood effectively.</li>
+            <li>Plasma freezers to maintain the potency of clotting factors</li>
+            <li>Platelet incubators and agitators to store platelets at a temperature of 22oC and agitate them
+                constantly <br>to
+                avoid platelet aggregation.</li>
+            <li> Apheresis,cell separator to collect specified component from donor to improve treatment quality in
+                patients
+            </li>
+            <li>VITROS, fully-automated transfusion-transmitted infection testing helps to prevent transmission of
+                infection.</li>
+            <li> Sterile tube-connecting device, TSCD avoids blood bag contamination.</li>
+            <li> Quality control -regular quality control checks are done for all reagents, antisera, blood components
+                and
+                equipment.<br> The department also participates in an external quality assurance with CMC, Vellore by
+                CLIA.
+                <ul>
+            </li>
+        </ul>
+    </div>
+
+    <!--equipment section-->
+
+    <!--Footer section-->
+
+    <div class="footer mt-5">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row py-5" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="py-3">Hospital</h4>
+                        <p>Research Centre</p>
+                        <p>Arapalayam,Madurai.</p>
+                        <p>Tamilnadu</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="py-3">Useful Links</h4>
+                        <p>HIS</p>
+                        <p> IEC Forms</p>
+                        <p> Careers</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="py-3">Hospital Services</h4>
+                        <p>Emergency Services/Casualty</p>
+                        <p>Master Health Checkup</p>
+                        <p>Diagnostic Services</p>
+                        <p>Blood Bank</p>
+                        <p>Facilities and Services</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="py-3">Get in Touch</h4>
+                        <p>Phone: 044-6700-0000</p>
+                        <p>dean.mjskjsfjbjhsdcjhbs.in</p>
+                        <p>Mon. to Sat: 8.00 AM to 10.00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

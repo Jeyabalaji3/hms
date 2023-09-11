@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:rgb(252, 252, 252);
+}
+
+/* head*/
+
+#head{
+    height: 50px;
+    background-color: darkcyan;
+}
+#head .nav-link{
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+}
+#head #active{
+    background-color: white;
+    color: rgb(1, 65, 65);
+}
+
+/* /head */
+
+
+/* header */
+
+.header{
+    height: 75px;
+    background-color: white;
+    box-shadow: 0 4px 4px gray;
+}
+.header .nav-link{
+    font-size: 20px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+.header .navbar-brand{
+    font-size: 22px;
+    margin-left: 20px !important;
+    font-weight: bolder;
+}
+.header .nav-link:hover{
+    color: black !important;
+    border-bottom: 2px solid black;
+}
+
+/* /header */
+
+
+/*carousel */
+
+  #text{
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 450px;
+    height: 500px !important;
+  }
+  #text p {
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient( black, black);
+    letter-spacing: 3;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 3s linear infinite;
+    position: relative;
+  }
+
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+
+    100% {
+      background-position-x: 500%;
+    }
+  }
+.carousel-item img{
+    height: 800px;
+    opacity: .6;
+}
+
+/* /carousel */
+
+
+/*home */
+
+#home{
+    margin-top: 130px;
+    margin-bottom: 150px;
+    margin-right: 80px;
+}
+#home .btn{
+    color: white;
+    background-color: rgb(214, 69, 69);
+    box-shadow: 0 4px 2px  rgb(179, 39, 39);
+    transition: .3s;
+}
+#home .btn:active{
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+/*Department */
+
+#department{
+    color: white;
+    border-radius: 10px 170px;
+}
+
+/* /Department */
+
+
+/* cards */
+
+#card h2{
+    padding: 90px 0;
+    font-weight: bold;
+}
+#card .card{
+    width: 320px;
+    border-radius: 15px;
+    height: 220px !important;
+    overflow: hidden;
+    box-shadow:0 0 5px 0 rgba(0, 0, 0, 0.25);
+}
+#card .card img{
+    margin-top: 0%;
+    border-radius: 15px;
+    width: 320px;
+    height: 220px; 
+}
+#card .card:hover img{
+    transform: scale(1.3);
+}
+
+/* /cards*/
+
+
+/*footer*/
+
+.footer{
+    border-radius: 250px 0 0 0;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    cursor: pointer;
+  }
+  .footer p:hover{
+    color:darkcyan;
+  }
+
+/* /footer */
